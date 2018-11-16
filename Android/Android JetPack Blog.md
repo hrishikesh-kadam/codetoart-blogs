@@ -9,9 +9,9 @@ AndroidX is Jetpack's evolution of the original Android Support Library. It is t
 According to [Android Support Library Page](https://developer.android.com/topic/libraries/support-library/) -
 
 > Note: With the release of Android 9.0 (API level 28) there is a new version of the support library called AndroidX which is part of Jetpack. The AndroidX library contains the existing support library and also includes the latest Jetpack components.
-
+>
 > You can continue to use the support library. Historical artifacts (those versioned 27 and earlier, and packaged as `android.support.*`) will remain available on Google Maven. However, all new library development will occur in the AndroidX library.
-
+>
 > We recommend using the AndroidX libraries in all new projects. You should also consider migrating existing projects to AndroidX as well.
 
 Like the Support Library, AndroidX ships separately from the Android OS and provides backwards-compatibility across Android releases. AndroidX fully replaces the Support Library by providing feature parity and new libraries. In addition AndroidX includes the following features:
@@ -28,7 +28,7 @@ So its time to use AndroidX or get stuck with 28.0.0 Support Library.
 
 A collection of libraries that help you design robust, testable, and maintainable apps. Start with classes for managing your UI component lifecycle and handling data persistence.
 
-Architecture Component 1.0 was announced back in Nov 2017 ([Developers Blog](https://android-developers.googleblog.com/2017/11/announcing-architecture-components-10.html)). Then after announcing JetPack at Google I/O 2018, Architecture Component is now considered as a sub component of JetPack.
+Architecture Component 1.0 was announced back in Nov 2017 ([Developers Blog](https://android-developers.googleblog.com/2017/11/announcing-architecture-components-10.html)). Then after announcing JetPack at Google I/O 2018, Architecture Component is now considered as a part of JetPack.
 
 - [Data Binding](https://developer.android.com/topic/libraries/data-binding/) - Declaratively bind observable data to UI elements.
 - [Lifecycles](https://developer.android.com/topic/libraries/architecture/lifecycle) - Create a UI that automatically responds to lifecycle events.
@@ -40,3 +40,11 @@ Architecture Component 1.0 was announced back in Nov 2017 ([Developers Blog](htt
 - [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager) - Manage your Android background jobs.
 
 You can find sample projects on [googlesamples/android-architecture-components](https://github.com/googlesamples/android-architecture-components) GitHub repo
+
+## [Migrate to AndroidX](https://developer.android.com/jetpack/androidx/migrate)
+
+According to above link -
+
+> With Android Studio 3.2 and higher, you can migrate an existing project to use AndroidX by selecting Refactor > Migrate to AndroidX from the menu bar.
+
+But in reality the tool is broken and hardly maps Support Library packages to AndroidX. You still need to yourself replace the packages name.
