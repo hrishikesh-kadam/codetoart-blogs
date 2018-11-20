@@ -1,4 +1,4 @@
-## [Android JetPack](https://developer.android.com/jetpack/)
+## [Android Jetpack](https://developer.android.com/jetpack/)
 
 Jetpack is a collection of Android software components to make it easier for you to develop great Android apps. It was announced at Google I/O 2018. Jetpack builds on the foundations laid out by **Support Library** and **Architecture Component**.
 
@@ -28,7 +28,7 @@ So its time to use AndroidX or get stuck with 28.0.0 Support Library.
 
 A collection of libraries that help you design robust, testable, and maintainable apps. Start with classes for managing your UI component lifecycle and handling data persistence.
 
-Architecture Component 1.0 was announced back in Nov 2017 ([Developers Blog](https://android-developers.googleblog.com/2017/11/announcing-architecture-components-10.html)). Then after announcing JetPack at Google I/O 2018, Architecture Component is now considered as a part of JetPack.
+Architecture Component 1.0 was announced back in Nov 2017 ([Developers Blog](https://android-developers.googleblog.com/2017/11/announcing-architecture-components-10.html)). Then after announcing Jetpack at Google I/O 2018, Architecture Component is now considered as a part of Jetpack.
 
 - [Data Binding](https://developer.android.com/topic/libraries/data-binding/) - Declaratively bind observable data to UI elements.
 - [Lifecycles](https://developer.android.com/topic/libraries/architecture/lifecycle) - Create a UI that automatically responds to lifecycle events.
